@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=RX Pin=P?-A42
+Added Pin To Net: NetName=TX Pin=P?-B43
+Added Room: Name=PCIE
+Added Room: Name=U_FlightControllerBoard

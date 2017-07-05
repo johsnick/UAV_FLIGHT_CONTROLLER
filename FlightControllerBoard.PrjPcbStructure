@@ -1,2 +1,2 @@
-Record=TopLevelDocument|FileName=AT short bus ( 7 x 4.2 inches).schdoc
-Record=SheetSymbol|SourceDocument=AT short bus ( 7 x 4.2 inches).schdoc|Designator=U_FlightControllerBoard|SchDesignator=U_FlightControllerBoard|FileName=FlightControllerBoard.SchDoc|SymbolType=Normal|RawFileName=FlightControllerBoard.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=PCIE.SchDoc
+Record=SheetSymbol|SourceDocument=PCIE.SchDoc|Designator=U_FlightControllerBoard|SchDesignator=U_FlightControllerBoard|FileName=FlightControllerBoard.SchDoc|SymbolType=Normal|RawFileName=FlightControllerBoard.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -32,7 +32,9 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
-Template=C:\Users\nick\Documents\Altium\AD17\Templates\AT short bus ( 7 x 4.2 inches).PrjPCB
+VaultGUID=9F0439D8-5E13-4286-B92A-0416224E50A9
+ReleaseVaultGUID=9F0439D8-5E13-4286-B92A-0416224E50A9
+ReleaseVaultName=Altium Shanghai
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -40,7 +42,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=FlightControllerBoard.SchDoc
+DocumentPath=..\Copy of PCI Express_16765X6890_164PIN_Low profile.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -50,31 +52,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NMXHQSXD
+DocumentUniqueId=BYMLCAKF
 
 [Document2]
-DocumentPath=M0_Socket.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HDEWUSED
-
-[Document3]
-DocumentPath=Schematic Components.SchLib
+DocumentPath=..\..\..\..\..\Desktop\PDE-0001-00050-2\Design\PCI Express_16765X6890_164PIN_Low profile.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -90,45 +75,85 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=PCIE.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=USCIVNYI
+[Parameter1]
+Name=ProjectAddress1
+Value=IBP Shanghai
 
-[Document5]
-DocumentPath=PCB1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
+[Parameter2]
+Name=ProjectAddress2
+Value=Level 3 - Building 3
+
+[Parameter3]
+Name=ProjectAddress3
+Value=No.168 Linhong Road
+
+[Parameter4]
+Name=ProjectAddress4
+Value=Shanghai 200335, China
+
+[Parameter5]
+Name=ProjectOrganization
+Value=Altium
+
+[Parameter6]
+Name=ProjectTitle
+Value=PCI Express x16 Low profile card
+
+[Parameter7]
+Name=Template Family
+Value=PCI Express
+
+[Parameter8]
+Name=Template Notes
+Value=- Nominal values used, dimensions in mm  - The mounting holes and keep-out areas around them are only required when the I/O bracket is mounted on the card directly  - Component height rule and clearance rule derived from PCI_Express_CEM_r2.0.pdf, Page 84.  - Stackup is not specified in PCI_Express_CEM_r2.0.pdf, nor implemented in this template.
+
+[Parameter9]
+Name=Template Revision Date
+Value=Oct 29, 2010
+
+[Parameter10]
+Name=Template Source Document
+Value=Outline:PCI_Express_CEM_r2.0.pdf  Pinout:PCI_Express_CEM_r2.0.pdf
+
+[Parameter11]
+Name=Template Source Name
+Value=
+
+[Parameter12]
+Name=Template Source Organization
+Value=PCI-SIG
+
+[Parameter13]
+Name=Template Source Revision Date
+Value=R2.0, April 11, 2007
+
+[Parameter14]
+Name=Template Source URL
+Value=http://www.pcisig.com
+
+[Parameter15]
+Name=Template Source URL2
+Value=
+
+[DeviceSheet1]
+DocumentPath=..\..\..\..\..\Desktop\PDE-0001-00050-2\Design\Managed\Sheets\4CFC1913-8592-4AF6-BEC3-40B7A4C73F9D\CON_PCI_Express_X16_164PIN.SchDoc
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
-DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XFFERPSB
+
+[DeviceSheet2]
+DocumentPath=..\..\..\..\..\Desktop\PDE-0001-00050-2\Design\Managed\Sheets\4CFC1913-8592-4AF6-BEC3-40B7A4C73F9D\CON_PCI_Express_X16_164PIN.Harness
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+GenerateClassCluster=0
 
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=242FC7FD-F84A-4E93-9FD1-D3D6A2544785
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
@@ -284,45 +309,45 @@ OutputName4=PCB 3D Print
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType5=PCB 3D Video
 OutputName5=PCB 3D Video
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=PCBLIB Print
-OutputName6=PCBLIB Prints
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType6=SimView Print
+OutputName6=SimView Prints
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Report Print
-OutputName7=Report Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType7=Wave Print
+OutputName7=Wave Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=SimView Print
-OutputName8=SimView Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType8=WaveSim Print
+OutputName8=WaveSim Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Wave Print
-OutputName9=Wave Prints
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType9=Report Print
+OutputName9=Report Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=WaveSim Print
-OutputName10=WaveSim Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+OutputType10=PCBDrawing
+OutputName10=Draftsman
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PCBDrawing
-OutputName11=Draftsman
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=PCBLIB Print
+OutputName11=PCBLIB Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
@@ -364,13 +389,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType3=Final
@@ -416,7 +441,7 @@ OutputName10=Report Board Stack
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType11=Gerber X2
 OutputName11=Gerber X2 Files
 OutputDocumentPath11=
@@ -438,7 +463,7 @@ OutputName1=Bill of Materials
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -475,7 +500,7 @@ OutputName1=Text Print
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=Text Print
 OutputName2=Text Print
 OutputDocumentPath2=
@@ -650,36 +675,36 @@ Name=Validation Outputs
 Description=
 TargetPrinter=EPSON04E737 (ET-2550 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Configuration compliance
-OutputName1=Environment configuration compliance check
+OutputType1=Design Rules Check
+OutputName1=Design Rules Check
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=Design Rules Check
-OutputName2=Design Rules Check
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType2=Differences Report
+OutputName2=Differences Report
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Differences Report
-OutputName3=Differences Report
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType3=Electrical Rules Check
+OutputName3=Electrical Rules Check
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Electrical Rules Check
-OutputName4=Electrical Rules Check
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType4=Footprint Comparison Report
+OutputName4=Footprint Comparison Report
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Footprint Comparison Report
-OutputName5=Footprint Comparison Report
+OutputType5=Component states check
+OutputName5=Vault's components states check
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Component states check
-OutputName6=Vault's components states check
+OutputType6=Configuration compliance
+OutputName6=Environment configuration compliance check
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
@@ -689,25 +714,25 @@ Name=Export Outputs
 Description=
 TargetPrinter=EPSON04E737 (ET-2550 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AutoCAD dwg/dxf PCB
-OutputName1=AutoCAD dwg/dxf File PCB
+OutputType1=ExportSTEP
+OutputName1=Export STEP
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf Schematic
-OutputName2=AutoCAD dwg/dxf File Schematic
+OutputType2=AutoCAD dwg/dxf PCB
+OutputName2=AutoCAD dwg/dxf File PCB
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=ExportIDF
-OutputName3=Export IDF
+OutputType3=AutoCAD dwg/dxf Schematic
+OutputName3=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportSTEP
-OutputName4=Export STEP
+OutputType4=ExportIDF
+OutputName4=Export IDF
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
 OutputType5=ExportPARASOLID
 OutputName5=Export PARASOLID
@@ -780,7 +805,7 @@ Type30=1
 Type31=1
 Type32=1
 Type33=1
-Type34=1
+Type34=0
 Type35=1
 Type36=1
 Type37=1
@@ -1033,7 +1058,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
@@ -1045,48 +1070,12 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
-ComponentDesignItemID0=PCATEDGE
-ComponentSymbolReference0=PCATEDGE
-ComponentUpdate0=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Con Rect Plain_-_CN-2P-M-R204.Schlib
+ComponentDesignItemID0=CN/2P-M-R204
+ComponentSymbolReference0=CN/2P-M-R204
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Miscellaneous Devices.IntLib
-ComponentDesignItemID1=Cap
-ComponentSymbolReference1=Cap
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Miscellaneous Devices.IntLib
-ComponentDesignItemID2=Res1
-ComponentSymbolReference2=Res1
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Schematic Components.SchLib
-ComponentDesignItemID3=BMP280
-ComponentSymbolReference3=BMP280
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Schematic Components.SchLib
-ComponentDesignItemID4=BNO055 Pinout
-ComponentSymbolReference4=BNO055 Pinout
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Schematic Components.SchLib
-ComponentDesignItemID5=M0_pinout
-ComponentSymbolReference5=M0_pinout
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name Only
-ComponentLibraryIdentifier6=Altium Content Vault
-ComponentDesignItemID6=CMP-1527-00009-2
-ComponentSymbolReference6=TI-CD40109B-16
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1104,113 +1093,15 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=ComponentLink2Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink2URL
-ParameterUpdate5=1
-ParameterName6=ComponentLink3Description
-ParameterUpdate6=1
-ParameterName7=ComponentLink3URL
-ParameterUpdate7=1
-ParameterName8=DatasheetVersion
-ParameterUpdate8=1
-ParameterName9=Description
-ParameterUpdate9=1
-ParameterName10=LatestRevisionDate
-ParameterUpdate10=1
-ParameterName11=LatestRevisionNote
-ParameterUpdate11=1
-ParameterName12=Library Reference
-ParameterUpdate12=1
-ParameterName13=Manufacturer
-ParameterUpdate13=1
-ParameterName14=Mounting Technology
-ParameterUpdate14=1
-ParameterName15=Number of Bits
-ParameterUpdate15=1
-ParameterName16=Number of Channels
-ParameterUpdate16=1
-ParameterName17=Number of Outputs
-ParameterUpdate17=1
-ParameterName18=Package Reference
-ParameterUpdate18=1
-ParameterName19=PackageDescription
-ParameterUpdate19=1
-ParameterName20=PackageReference
-ParameterUpdate20=1
-ParameterName21=PackageVersion
-ParameterUpdate21=1
-ParameterName22=Packing
-ParameterUpdate22=1
-ParameterName23=PartNumber
-ParameterUpdate23=1
-ParameterName24=Propagation Delay
-ParameterUpdate24=1
-ParameterName25=Published
-ParameterUpdate25=1
-ParameterName26=Publisher
-ParameterUpdate26=1
-ParameterName27=RoHS
-ParameterUpdate27=1
-ParameterName28=Temperature Range
-ParameterUpdate28=1
-ParameterName29=Text Field6
-ParameterUpdate29=1
-ParameterName30=Text Field7
-ParameterUpdate30=1
-ParameterName31=Value
-ParameterUpdate31=1
-ParameterName32=VSS
-ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=AXIAL-0.3
+ModelName0=SODIMM 204PIN EDGE
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=BMP280
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=BNO055
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=M0
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=PCATEDGE
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=PW0016A_L
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=PW0016A_M
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=PW0016A_N
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=RAD-0.3
-ModelUpdate8=1
-ModelTypeGroup1=SI
-ModelTypeUpdate1=1
-ModelType9=SI
-ModelName9=Cap
-ModelUpdate9=1
-ModelType10=SI
-ModelName10=Res
-ModelUpdate10=1
-ModelTypeGroup2=SIM
-ModelTypeUpdate2=1
-ModelType11=SIM
-ModelName11=CAP
-ModelUpdate11=1
-ModelType12=SIM
-ModelName12=RESISTOR
-ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1226,5 +1117,5 @@ ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|C
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 

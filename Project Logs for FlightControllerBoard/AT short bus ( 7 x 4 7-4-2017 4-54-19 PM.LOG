@@ -1,0 +1,7 @@
+Change Physical Footprint: Designator=Barometer Old Footprint=BMP280 New Footprint=BMP280
+Change Physical Footprint: Designator=BNO055 Old Footprint=BNO055 New Footprint=BNO055
+Change Physical Footprint: Designator=Cap Old Footprint=RAD-0.3 New Footprint=RAD-0.3
+Change Physical Footprint: Designator=Level Shifter Old Footprint=PW0016A_N New Footprint=PW0016A_N
+Change Physical Footprint: Designator=M0 Old Footprint=M0 New Footprint=M0
+Change Physical Footprint: Designator=SCL_PullUp Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=SDA_PullUp Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3

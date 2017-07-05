@@ -1,0 +1,11 @@
+Added Component: Designator=Pinout(Reciever)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=KILL_RC_PIN Pin=Pinout-KILL
+Added Pin To Net: NetName=PITCH_RC_PIN Pin=Pinout-PITCH
+Added Pin To Net: NetName=ROLL_RC_PIN Pin=Pinout-ROLL
+Added Pin To Net: NetName=SONAR Pin=Pinout-SONAR
+Added Pin To Net: NetName=THROTTLE_RC_PIN Pin=Pinout-THR
+Added Pin To Net: NetName=YAW_RC_PIN Pin=Pinout-YAW
+Added Member To Class: ClassName=U_FlightControllerBoard Member=Component Pinout Reciever Pinout
+Added Room: Name=PCIE
+Added Room: Name=U_FlightControllerBoard
